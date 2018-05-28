@@ -6,8 +6,4 @@ parameters:
           project: '7.2'
       composer: ~
       securitychecker: ~
-
-    git_commit_message:
-        enforce_capitalized_subject: false
-        matchers:
-            Must contain ticket issue number: /\#[0-9]+\d+/
+      phplint: ~
