@@ -1,4 +1,13 @@
 parameters:
     git_dir: .
     bin_dir: vendor/bin
-    tasks: null
+    tasks:
+      phpversion:
+          project: '7.2'
+      composer: ~
+      securitychecker: ~
+
+    git_commit_message:
+        enforce_capitalized_subject: false
+        matchers:
+            Must contain ticket issue number: /\#[0-9]+\d+/
