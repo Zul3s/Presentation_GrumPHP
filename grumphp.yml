@@ -7,3 +7,7 @@ parameters:
       composer: ~
       securitychecker: ~
       phplint: ~
+#      phpcs:
+#        standard: 'PSR2'
+      phpstan:
+        level: 4

@@ -48,7 +48,6 @@ class PostRepository extends ServiceEntityRepository
             ')
             ->setParameter('now', new \DateTime())
         ;
-
         return $this->createPaginator($query, $page);
     }
 
